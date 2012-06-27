@@ -8,7 +8,10 @@ spec = Gem::Specification.new do |s|
   s.homepage = 'http://canvashosting.com'
   s.platform = Gem::Platform::RUBY
   s.summary = 'A gem that knows about calling out to the shell'
-# Add your other files here if you make them
+  s.description = <<-EOF
+  Conchology provides a friendly wrapper for Open4 to run one-off commands
+  while providing information about the run of said commands.
+  EOF
   s.files = %w(
 README.md
 lib
